@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.active {
+		border: #8E8E8E 2px solid;
+		border-radius: 5px;
+		}
+
+#Video{
+	background:url("event.jpg");
+	background-attachment: fixed;
+	background-position: 0 -360px;
+	height: 200px;
+	position: relative;
+}
+#Video .video-overlay{
+	position: absolute;
+	top: 0; left: 0;
+	background-color: rgba(0,0,50,.6);
+	height: 200px;
+	width: 100%;
+}
+#Join{
+	background:url("join.jpg");
+	background-attachment: fixed;
+	background-position: 0 -360px;
+	height: 200px;
+	position: relative;
+}
+
+#Join .join-overlay{
+	position: absolute;
+	top: 0; left: 0;
+	background-color: rgba(0,0,0,.8);
+	height: 200px;
+	width: 100%;
+
+
+}
+
+		
